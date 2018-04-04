@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+		<nav>
+    		<div class="nav-wrapper center blue-grey darken-3">
+				{% block app_header %}{% endblock %}
+			</div>
+  		</nav>
+		{% include "components/side-nav/side-nav.html" %}
+		<div class="content">
+			{% block app_content %}{% endblock %}
+		</div>
+
+
+
+
+
+{% endblock %}

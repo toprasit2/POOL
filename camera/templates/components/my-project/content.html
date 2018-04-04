@@ -1,0 +1,16 @@
+{% extends "components/my-project/myproject.html" %}
+{% block my_project_content %}
+		
+	 <!-- Modal Structure -->
+ 	<div id="modal" class="modal">
+		<div class="modal-content">
+			<h4>Add Project</h4>
+			name:<input type="text" class="txt" name="item" placeholder="" [(ngModel)]="nameText">
+		</div>
+	<div class="modal-footer">
+		<input type="submit" class="modal-action modal-close waves-effect waves-green btn-flat" type="submit" [value]="btnText" (click)="addItem()">
+	</div>
+</div>
+
+
+{% endblock %}

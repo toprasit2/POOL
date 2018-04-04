@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+	<div class="row" style="height: 100vh;">
+		<div class="col l6 grey darken-3">
+			{% include "components/logo/logo.html" %}
+		</div>
+		<div class="col l6 grey lighten-3">
+			<div class="container">
+				{% block form %}{% endblock %}
+			</div>
+		</div> 
+	
+{% endblock %}

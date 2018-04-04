@@ -1,0 +1,29 @@
+.content {
+	margin-left : 300px;
+}
+.login-content{
+    height:100%;
+    margin-top:50%;
+    margin-bottom:50%;
+
+}
+
+.card-image {
+	width : 300px;	
+}
+
+.card {
+    width : 300px;
+	margin : 5px 5px 5px 5px;
+	display:inline-block;
+}
+
+.title {
+	padding : 10px 30px 10px 30px;
+}
+
+@media only screen and (max-width : 992px) {
+      .content {
+			margin-left: 0; 
+	  }
+}

@@ -1,0 +1,43 @@
+{% extends "page/app/app.html" %}
+{% block app_header %}
+	<div class="row">
+		<div class="col l6">
+    		<a href="#" class="brand-logo">My Project</a>
+		</div>
+		<div class="col l6">
+			<div class="row">
+				<div class="col l2">
+				<a class"btn-floating btn-large">
+￼					<i class="material-icons">search</i>
+				</a>
+				</div>
+				<div class="col l8">
+					<input type="text">
+				</div>
+			</div>
+		</div>
+{% endblock %}
+{% block app_content %}
+	{% block my_project_content %}{% endblock %}
+
+	<div class="center" style="margin-top:10px;">
+		<a class="waves-effect waves-light btn-floating btn-large modal-trigger blue-grey"href="#modal">
+			<i class="large material-icons">add</i>
+		</a>
+	</div>
+<!-- Modal Structure -->
+	<div id="modal" class="modal">
+		<div class="modal-content">
+			<h4>Add Project</h4>
+			name:<input type="text" class="txt" name="item" placeholder="">
+		</div>
+		<div class="modal-footer">
+			<input type="submit" class="modal-action modal-close waves-effect waves-green btn-flat" type="submit" [value]="btnText">
+		</div>
+	
+	</div>
+	
+
+
+{% endblock %}
+

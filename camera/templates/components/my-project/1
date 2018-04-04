@@ -1,0 +1,17 @@
+<div class"row blue">
+	<div class="text-on-element">
+		<a href="#"><span class="white-text">CoE</span><i class="materialize-icon">cloud</i></a>
+	</div>
+	<div class="col l3">
+		<img src="static/image/cam.jpg" style="width:100%" >
+		</div>
+	<div class="col l3">
+		<img src="static/image/cam.jpg" style="width:100%" >
+		</div>
+	<div class="col l3">
+		<img src="static/image/cam.jpg" style="width:100%" >
+		</div>
+	<div class="col l3">
+		<img src="static/image/cam.jpg" style="width:100%" >
+		</div>
+</div>
